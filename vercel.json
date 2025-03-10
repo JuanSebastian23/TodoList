@@ -1,11 +1,11 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "public",
+  "outputDirectory": "dist",
   "devCommand": "php artisan serve",
   "builds": [
     {
-      "src": "public/**",
+      "src": "dist/**",
       "use": "@vercel/static"
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "src": "/(css|js|images|fonts|assets)/(.*)",
-      "dest": "/public/$1/$2"
+      "dest": "/$1/$2"
     },
     {
       "src": "/(.*)",

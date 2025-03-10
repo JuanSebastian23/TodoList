@@ -2,7 +2,16 @@
 /node_modules
 /.git
 /.idea
+/storage/*.key
 .env
 .env.example
+.env.backup
 .gitattributes
 .gitignore
+.phpunit.result.cache
+docker-compose.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+phpunit.xml
+README.md
