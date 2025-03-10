@@ -116,12 +116,17 @@ php artisan test
 
 ## Despliegue
 
-La aplicación está preparada para ser desplegada en cualquier servidor que cumpla con los requisitos de Laravel. Algunas opciones recomendadas:
+La aplicación está preparada para ser desplegada en cualquier servidor que cumpla con los requisitos de Laravel, incluyendo:
 
-- [Laravel Forge](https://forge.laravel.com)
-- [Laravel Vapor](https://vapor.laravel.com)
-- [Heroku](https://heroku.com)
-- [DigitalOcean](https://digitalocean.com)
+- **[Vercel](https://vercel.com)**: Usa el archivo `vercel.json` incluido para un despliegue sencillo
+- **[Laravel Forge](https://forge.laravel.com)**
+- **[Heroku](https://heroku.com)**
+- **[DigitalOcean](https://digitalocean.com)**
+
+Para desplegar en Vercel:
+1. Conecta tu repositorio de GitHub a Vercel
+2. Vercel detectará automáticamente tu proyecto Laravel
+3. La configuración ya está lista en el archivo `vercel.json`
 
 ## Licencia
 
