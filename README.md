@@ -94,9 +94,7 @@ Todo-List/
 - **[Laravel](https://laravel.com)**: Framework PHP para el backend
 - **[Eloquent ORM](https://laravel.com/docs/eloquent)**: Para la gestión de la base de datos
 - **[Blade](https://laravel.com/docs/blade)**: Motor de plantillas
-- **[Tailwind CSS](https://tailwindcss.com)**: Framework CSS para el frontend
-- **[Alpine.js](https://alpinejs.dev)**: Framework JavaScript minimalista
-- **[Livewire](https://laravel-livewire.com)**: Framework full-stack para Laravel
+- **[Bootstrap](https://getbootstrap.com)**: Framework CSS para el frontend
 
 ## Contribuir
 
@@ -128,10 +126,6 @@ La aplicación está preparada para ser desplegada en cualquier servidor que cum
 ## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
-
-## Contacto
-
-Si tienes preguntas o sugerencias, no dudes en contactarme a través de [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
 
 ---
 
